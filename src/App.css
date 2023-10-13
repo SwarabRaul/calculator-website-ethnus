@@ -51,11 +51,9 @@
 
 .back {
   font-size: 16px;
-  /* Reduce the font size */
   background-color: #4285f4;
   color: white;
   padding: 10px 20px;
-  /* Adjust the button size */
 }
 
 .back:hover {

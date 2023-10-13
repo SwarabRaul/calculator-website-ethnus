@@ -43,8 +43,8 @@ class App extends Component {
     }));
   };
 
-  redirectToGoogle = () => {
-    window.location.href = 'https://www.google.com';
+  redirectToIndexPage = () => {
+    window.location.href = 'https://swarabraul.github.io/React-Ethnus-IndexPage/';
   };
 
   handleCalculate = () => {
@@ -85,7 +85,7 @@ class App extends Component {
           <button onClick={() => this.handleDigitClick('3')}>3</button>
           <button onClick={() => this.handleOperatorClick('*')} className="operator">*</button>
           <button onClick={() => this.handleDigitClick('0')}>0</button>
-          <button onClick={this.redirectToGoogle} className="button back">Back to Google</button>
+          <button onClick={this.redirectToIndexPage} className="button back">Back to Index Page</button>
         </div>
       </div>
     );
